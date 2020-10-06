@@ -1,0 +1,62 @@
+input {
+    width: 30%;
+  }
+
+label {
+    font-family: Tahoma, sans-serif;
+}
+
+input, [type=text], [type=email] {​
+
+    padding: 2px 2px;​
+
+    margin: 8px 0px;​
+
+    border: none;​
+
+    border-bottom: 2px solid purple;​
+    
+
+  }
+
+input,[type=radio] {​
+
+    width: 5px;​
+
+}
+textarea {
+    border: 2px solid purple;
+}
+
+input,[type=submit] {​
+    background-color: purple;
+    color: white;
+    width: 25%;
+}
+
+input,[type=radio] + label {​
+    color: purple;
+}
+*animation code*/
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+ {
+  form  width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    /*delay animation*/
+    animation-delay: 2s;
+    /*loop animation amount*/
+    animation-iteration-count: 3;
+    /*play animation backwards*/
+    animation-direction: reverse;
+    /*play animation at same speed throughout */
+    animation-timing-function: linear;
+    /*if animation is not available, display end state*/
+    animation-fill-mode: forwards;
+}

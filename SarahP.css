@@ -1,0 +1,30 @@
+#profile {
+    
+    margin-left:110px;
+
+    width: 70%;
+  
+    margin: 30px 100px;
+
+    position: absolute; 
+
+    bottom: 0px; 
+  }
+
+#pic {
+    position: fixed; 
+    top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%;
+  }
+#pic img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 100; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+  }

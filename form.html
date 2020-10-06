@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+
+<body>
+    <form action="mailto:someone@example.com" method="post">
+        <label>Name:</label> <input type="text" name="Name" required placeholder="Your Name"> <br>
+        <label>Email:</label> <input type="email" name="Email" required placeholder="someone@example.com"> <br>
+        <label>Date:</label> <input type="date" name="date1"> <br>
+        <label>Subject:</label><br>
+        <input type="radio" name="Subject" value="Sales"><label>Sales</label><br>
+        <input type="radio" name="Subject2" value="Support"><label>Support</label><br>
+        <input type="radio" name="Subject2" value="Others"><label>Others</label><br>
+        <label>Comment:</label> <textarea name="comments">default text</textarea><br>
+        <input type="submit" value="Send the form">
+        <input type="reset" value="Clear the form">
+    </form>
+</body>
+
+</html>
